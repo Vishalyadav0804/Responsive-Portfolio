@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width-device-width", initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Responsive Portfolio Landing Page</title>
+    <link rel="stylesheet" href="ResponsivePortfolio.css">
+  </head>
+  <body>
+    <section class="banner" id="sec">
+      <header>
+        <a href="#" class="logo">Logo</a>
+        <div id="toggle" onclick="toggle()"></div>
+      </header>
+      <div class="content">
+        <h2>Hello World,<br>I'm <span>Vishal Yadav</span></h2>
+        <p>Hello, I am an undergraduate student pursuing my Bachelor's degree with my major
+        in Computer Science And Engineering.<br><br>My objective is to make a successfu career in field
+      of information and technology and to work in a professional environment where I can constantly
+    learn new technologies and skills to improve beyond my current abilities displaying highest level
+  of learning.</p>
+          <a href="#">Know More</a>
+      </div>
+      <ul class="sci">
+        <li><a href="#"><img src="facebook.png"></a></li>
+        <li><a href="#"><img src="twitter.png"></a></li>
+        <li><a href="#"><img src="linkedin.png"></a></li>
+      </ul>
+    </section>
+    <div id="navigation">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <script type="text/javascript">
+      function toggle(){
+        var sec=document.getElementById('sec');
+        var nav=document.getElementById('navigation');
+        sec.classList.toggle('active');
+        nav.classList.toggle('active');
+      }
+    </script>
+  </body>
+</html>
