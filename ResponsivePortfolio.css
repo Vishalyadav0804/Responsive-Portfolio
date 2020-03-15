@@ -63,7 +63,7 @@ header #toggle:after {
   width: 100%;
   min-height: 100vh;
   padding: 100px;
-  background: url(bg.jpg);
+  background: url(Image/bg.jpg);
   background-size: cover;
   display: flex;
   align-items: center;
